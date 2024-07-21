@@ -540,3 +540,15 @@ body{
     float: left;
     cursor: pointer
 }
+.fa-pen-to-square{
+    width: 9%;
+    height: 43px;
+    color: rgb(9 9 9);
+    border-radius: 46px;
+    margin-top: 87%;
+    margin-left: 29%;
+    font-size: x-large;
+    border: 0px;
+    float: left;
+    cursor: pointer;
+}
