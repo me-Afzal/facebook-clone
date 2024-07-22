@@ -346,15 +346,20 @@ body{
 .follow:hover{
     text-decoration: underline;
 }
-.fa-ellipsis{
-    margin-top: 5%;
-    margin-left: 47%;
+.option-icon{
+    width: 8%;
+    height: 11%;
+    margin-top: 2.5%;
+    margin-left: 45%;
     float: left;
     font-size: larger;
-    cursor: pointer
+    cursor: pointer;
+    border-radius: 28px;
+    background-color: transparent;
+    border: 0px;
 }
 .close-btn{
-    width: 8%;
+    width: 7%;
     height: 42px;
     color: rgb(3 3 3);
     background-color: transparent;
@@ -366,6 +371,12 @@ body{
     float: left;
     cursor: pointer
     
+}
+.option-icon:hover{
+    background-color: #edeff0;
+}
+.close-btn:hover{
+    background-color: #edeff0;
 }
 .post-date{
     margin-top: -3%;
