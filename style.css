@@ -26,7 +26,7 @@ body{
     padding-top: 2%;
 }
 .logo{
-    margin-top: 1%;
+    margin-top: .6%;
     margin-left: -18%;
     width: 3%;
     height: 55%;
@@ -35,7 +35,7 @@ body{
     cursor: pointer
 }
 .sf{
-    margin-top: 1.5%;
+    margin-top: 1%;
     margin-left: -14%;
     width: 15%;
     height: 46%;
@@ -100,68 +100,81 @@ body{
     font-size: x-small;
     cursor: pointer
 }
-.fa-house{
-    margin-left: 12%;
-    margin-top: 1.5%;
+.house-icon{
+    height: 67%;
+    width: 7%;
+    margin-left: 10%;
+    margin-top: 0.2%;
     font-size: x-large;
     float: left;
-    cursor: pointer
+    border-radius: 16px;
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
 }
-.fa-user-group{
-    margin-top: 1.5%;
-    margin-left: 7%;
-    font-size: x-large;
-    float: left;
-    cursor: pointer
-}
-.fa-tv{
-    margin-top: 1.5%;
-    margin-left: 7%;
-    font-size: x-large;
-    float: left;
-    cursor: pointer
-}
-.fa-store{
-    margin-top: 1.5%;
-    margin-left: 6%;
-    font-size: x-large;
-    float: left;
-    cursor: pointer
-}
-.fa-users-rectangle{
-    margin-top: 1.5%;
-    margin-left: 5%;
-    font-size: x-large;
-    float: left;
-    cursor: pointer
-}
-.fa-list{
-    margin-top: 1.5%;
-    margin-left: 22%;
-    font-size: x-large;
-    float: left;
-    cursor: pointer
-}
-.fa-facebook-messenger{
-    margin-top: 1.5%;
+
+.icon{
+    height: 67%;
+    width: 7%;
     margin-left: 1%;
+    margin-top: 0.2%;
     font-size: x-large;
     float: left;
-    cursor: pointer
+    border-radius: 12px;
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
 }
-.fa-bell{
-    margin-top: 1.5%;
-    margin-left: 1%;
-    font-size: x-large;
-    float: left;
-    cursor: pointer
+.icon:hover{
+    background-color: #edeff0;
 }
-.fa-user-large{
-    margin-top: 1.5%;
-    margin-left: 1%;
+.list-icon{
+    margin-top: -3%;
+    margin-left: 65%;
+    height: 58%;
+    width: 3%;
     font-size: x-large;
     float: left;
-    cursor: pointer   
+    border-radius: 44px;
+    border: 0px;
+    background-color: #c0c0c063;
+    cursor: pointer;
+}
+.messenger-icon{
+    margin-top: -3%;
+    margin-left: 69%;
+    height: 58%;
+    width: 3%;
+    font-size: x-large;
+    float: left;
+    border-radius: 44px;
+    border: 0px;
+    background-color: #c0c0c063;
+    cursor: pointer;
+}
+.bell-icon{
+    margin-top: -3%;
+    margin-left: 73%;
+    height: 58%;
+    width: 3%;
+    font-size: x-large;
+    float: left;
+    border-radius: 44px;
+    border: 0px;
+    background-color: #c0c0c063;
+    cursor: pointer;
+}
+.user-acc{
+    margin-top: -3%;
+    margin-left: 77%;
+    height: 58%;
+    width: 3%;
+    font-size: x-large;
+    float: left;
+    border-radius: 44px;
+    border: 0px;
+    background-color: #c0c0c063;
+    cursor: pointer;
 }
 .content1{
     margin-top: -2%;
@@ -540,15 +553,16 @@ body{
     float: left;
     cursor: pointer
 }
-.fa-pen-to-square{
-    width: 9%;
-    height: 43px;
+.msg-icon{
+    width: 14%;
+    height: 52px;
     color: rgb(9 9 9);
     border-radius: 46px;
-    margin-top: 87%;
-    margin-left: 29%;
-    font-size: x-large;
+    margin-top: 80%;
+    margin-left: 24%;
+    font-size: larger;
     border: 0px;
     float: left;
     cursor: pointer;
+    background-color: white;
 }
