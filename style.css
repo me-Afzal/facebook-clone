@@ -2,17 +2,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
+.base{
+    width: 100%;
+    height: 740px;
+    background-color: #101010;
+}
 .side{
-    margin-top: 4%;
+    margin-top: 3.9%;
     width: 19%;
-    height: 681px;
+    height: 92%;
     background-color: #edeff0;
     float: left;
 }
 .head{
     margin-left: 0%;
     width: 100%;
-    height: 75px;
+    height: 10%;
     background-color: rgb(246, 249, 249);
     
 
@@ -21,7 +26,7 @@ body{
     margin-top: -1%;
     margin-left: 19%;
     width: 81%;
-    height: 645px;
+    height: 88%;
     background-color: #edeff0;
     padding-top: 2%;
 }
@@ -58,7 +63,7 @@ body{
     margin-top: -8%;
     margin-left: 25%;
     width: 5%;
-    height: 5;
+    height: 1%;
     font-size: large;
     text-decoration: none;
     color: black;
@@ -93,7 +98,7 @@ body{
     cursor: pointer
 }
 .foot-note{
-    margin-top: 18%;
+    margin-top: 23%;
     margin-left: 4%;
     width: 173%;
     color: #443c3cf7;
@@ -177,42 +182,42 @@ body{
     cursor: pointer;
 }
 .content1{
-    margin-top: -2%;
+    margin-top: 0%;
     margin-left: 0%;
     width: 53%;
-    height: 676px;
+    height: 100%;
     background-color: #edeff0;
-    padding-left: 17%;
+    padding-left: 15%;
     float: left;
 }
 .content2{
-    margin-top: -3%;
+    margin-top: 0%;
     margin-left: 70%;
     width: 30%;
-    height: 656px;
+    height: 100%;
     background-color: #edeff0;
 }
 .story{
     width: 90%;
     height: 11%;
-    margin-top: 3%;
-    margin-left: -3%;
+    margin-top: 0%;
+    margin-left: 0%;
     background-color: white;
     border-radius: 12px;
 }
 .pbtn1{
-    width: 7%;
-    height: 44px;
+    width: 8%;
+    height: 64%;
     color: rgb(17, 17, 231);
     background-color: #d5ecf7;
     border-radius: 46px;
     margin-top: 2%;
-    margin-left: 4%;
+    margin-left: 3%;
     font-size: xx-large;
     border: 0px;
     font-weight: 100;
     float: left;
-    cursor: pointer
+    cursor: pointer;
 }
 .story-h{
     margin-top: 3%;
@@ -233,8 +238,8 @@ body{
 .note{
     width: 90%;
     height: 19%;
-    margin-top: 3%;
-    margin-left: -3%;
+    margin-top: 2%;
+    margin-left: 0%;
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
 }
@@ -310,9 +315,9 @@ body{
 }
 .post{
     width: 90%;
-    height: 62%;
+    height: 65%;
     margin-top: 2%;
-    margin-left: -3%;
+    margin-left: 0%;
     background-color: rgb(249, 247, 248);
     border-radius: 12px;
 }
@@ -360,7 +365,7 @@ body{
 }
 .close-btn{
     width: 7%;
-    height: 42px;
+    height: 10%;
     color: rgb(3 3 3);
     background-color: transparent;
     border-radius: 46px;
@@ -494,7 +499,7 @@ body{
     cursor: pointer;
 }
 .content2-h1{
-    margin-top: 9%;
+    margin-top: 0%;
     margin-left: 7%;
     font-size: medium;
     font-weight: 600;
@@ -542,8 +547,8 @@ body{
     color: #7a7c7f;
 }
 .pbtn2{
-    width: 10%;
-    height: 36px;
+    width: 11%;
+    height: 6%;
     color: rgb(9 9 9);
     background-color: #dbdbde;
     border-radius: 46px;
@@ -553,7 +558,7 @@ body{
     border: 0px;
     font-weight: 100;
     float: left;
-    cursor: pointer
+    cursor: pointer;
 }
 .content2-h4{
     margin-top: 2.5%;
@@ -566,7 +571,7 @@ body{
 }
 .msg-icon{
     width: 14%;
-    height: 52px;
+    height: 8%;
     color: rgb(9 9 9);
     border-radius: 46px;
     margin-top: 80%;
