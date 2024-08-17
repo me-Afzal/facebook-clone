@@ -9,33 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
- <div class="base">    
-    <div class="side">
-        <i class="fa-solid fa-user"></i>
-        <p class="sp1">Account</p>
-        <img class="simg" src="images/find frnd.jpg" alt="">
-        <p class="sp2">Find friends</p>
-        <img class="simg" src="images/mimg.png" alt="">
-        <p class="sp2">Memories</p>
-        <img class="simg" src="images/save.png" alt="">
-        <p class="sp2">Saved</p>
-        <img class="simg" src="images/group.png" alt="">
-        <p class="sp2">Groups</p>
-        <img class="simg" src="images/vdo.png" alt="">
-        <p class="sp2">Video</p>
-        <img class="simg" src="images/store.png" alt="">
-        <p class="sp2">Marketplace</p>
-        <img class="simg" src="images/blogging.png" alt="">
-        <p class="sp2">Feeds</p>
-        <img class="simg" src="images/calendar.png" alt="">
-        <p class="sp2">Events</p>
-        <img class="simg" src="images/network.png" alt="">
-        <p class="sp2">Ads Manager</p>
-        <i class="fa-solid fa-chevron-down"></i>
-        <p class="sp2">See more</p>
-        <p class="foot-note">Privacy  · Terms  · Advertising  · Ad Choices · Cookies·<br>More· Meta © 2024</p>
-    </div>
-    <div class="head">
+ <div class="base">
+    <header>
          <img class="logo" src="images/facebook-logo.png" alt="">
          <input class="sf" type="text" placeholder= "Search Facebook">
          <button class="house-icon"><i class="fa-solid fa-house" style="color: #2067f3;"></i></button>
@@ -44,10 +19,60 @@
          <button class="icon"><i class="fa-solid fa-store" style="color: #7a7c7f;"></i></button>
          <button class="icon"><i class="fa-solid fa-users-rectangle" style="color: #7a7c7f;"></i></button>
          <button class="list-icon">&#10303;</button>
-         <button class="messenger-icon"> <i class="fa-brands fa-facebook-messenger"></i></button>
-         <button class="bell-icon"><i class="fa-solid fa-bell"></i></button>
-        <button class="user-acc"><i class="fa-solid fa-user-large"></i></button> 
+         <button class="head_icon"> <i class="fa-brands fa-facebook-messenger"></i></button>
+         <button class="head_icon"><i class="fa-solid fa-bell"></i></button>
+        <button class="head_icon"><i class="fa-solid fa-user-large"></i></button> 
+    </header>    
+    <div class="side">
+        <div>
+        <i class="fa-solid fa-user"></i>
+        <a class="s-p1" href="">Account</a>
+        </div>
+        <div>
+            <img class="simg" src="images/find frnd.jpg" alt="">
+        <a class="s-p" href="">Find friends</a>
+        </div>
+        <div>
+            <img class="simg" src="images/mimg.png" alt="">
+        <a class="s-p" href="">Memories</a>
+        </div>
+        <div>
+        <img class="simg" src="images/save.png" alt="">
+        <a class="s-p" href="">Saved</a>
+        </div>
+        <div>
+            <img class="simg" src="images/group.png" alt="">
+            <a class="s-p" href="">Groups</a>
+        </div>
+        <div>
+            <img class="simg" src="images/vdo.png" alt="">
+            <a class="s-p" href="">Video</a>
+        </div>
+        <div>
+            <img class="simg" src="images/store.png" alt="">
+            <a class="s-p" href="">Marketplace</a>
+        </div>
+        <div>
+            <img class="simg" src="images/blogging.png" alt="">
+            <a class="s-p" href="">Feeds</a>    
+        </div>
+        <div>
+            <img class="simg" src="images/calendar.png" alt="">
+            <a class="s-p" href="">Events</a>
+        </div>
+        <div>
+            <img class="simg" src="images/network.png" alt="">
+            <a class="s-p" href="">Ads Manager</a>    
+        </div>
+        <div>
+            <i class="fa-solid fa-chevron-down"></i>
+            <a class="s-p1" href="">See more</a>
+        </div>
+        <footer>
+            Privacy  · Terms  · Advertising  · Ad Choices · Cookies·<br>More· Meta © 2024
+        </footer>
     </div>
+    
     <div class="content">
         <div class="content1">
             <div class="story">
@@ -60,11 +85,11 @@
                 <input class="note-h" type="text" placeholder="What's on your mind?">
                 <hr>
                 <img class="lvdo-icon" src="images/live vdo.png" alt="">
-                <p class="lvdo-p">Live video</p>
+                <a class="lvdo-a" href="">Live video</a>
                 <img class="pic-icon" src="images/photos.png" alt="">
-                <p class="pic-p">Photo/Video</p>
+                <a class="pic-a" href="">Photo/Video</a>
                 <i class="fa-solid fa-face-laugh" style="color: #FFD43B;"></i>
-                <p class="emoji-p">Feeling/activity</p>
+                <a class="emoji-a" href="">Feeling/activity</a>
             </div>
             <div class="post">
                 <img class="profile" src="images/netflix.png" alt="">
@@ -80,15 +105,15 @@
                 </video>
                 <i class="fa-solid fa-thumbs-up"></i>
                 <p class="like">20M</p>
-                <p class="cmnt">900K comments</p>
-                <p class="share">200K shares</p>
+                <p class="cmnt">100K comments</p>
+                <p class="share">89K shares</p>
                 <hr>
                 <img class="like-pic" src="images/thumb-up.png" alt="">
-                <p class="like-p">Like</p>
+                <input class="lcs-in" type="submit" value="Like">
                 <i class="fa-regular fa-comment"></i>
-                <p class="cmnt-p">Comment</p>
+                <input class="lcs-in" type="submit" value="Comment">
                 <i class="fa-solid fa-share"></i>
-                <p class="share-p">Share</p>
+                <input class="lcs-in" type="submit" value="Share">
             </div>
 
         </div>
