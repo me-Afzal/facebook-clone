@@ -4,26 +4,32 @@ body{
 }
 .base{
     width: 100%;
-    height: 740px;
-    background-color: #101010;
+    height: 720px;
+    background-color: #edeff0;;
 }
 .side{
-    margin-top: 3.9%;
+    padding-top: 2%;
+    margin-top: 0%;
     width: 19%;
-    height: 92%;
+    height: 88%;
     background-color: #edeff0;
     float: left;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 21px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 }
-.head{
+header{
     margin-left: 0%;
     width: 100%;
-    height: 10%;
+    height: 7%;
     background-color: rgb(246, 249, 249);
+    display: flex;
+    flex-direction: row;
     
 
 }
 .content{
-    margin-top: -1%;
+    margin-top: 0%;
     margin-left: 19%;
     width: 81%;
     height: 88%;
@@ -31,87 +37,31 @@ body{
     padding-top: 2%;
 }
 .logo{
-    margin-top: .6%;
-    margin-left: -18%;
+    margin-top: .2%;
+    margin-left: 1%;
     width: 3%;
-    height: 55%;
+    height: 86%;
     border-radius: 197px;
-    float: left;
-    cursor: pointer
+    cursor: pointer;
 }
 .sf{
     margin-top: 1%;
-    margin-left: -14%;
-    width: 15%;
-    height: 46%;
+    margin-left: 1%;
+    height: 58%;
     border-radius: 20px;
     padding-left: 1%;
     color: rgba(75, 80, 84, 0.83);
     font-size: medium;
     background-color: #8077771c;
     border: white;
-    float: left;
-}
-
-.fa-user{
-    margin-top: 12%;
-    margin-left: 9%;
-    font-size: x-large;
-    cursor: pointer;
-}
-.sp1{
-    margin-top: -8%;
-    margin-left: 25%;
-    width: 5%;
-    height: 1%;
-    font-size: large;
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    font-weight: 600;
-    cursor: pointer
-}
-
-.simg{
-    margin-top: 6%;
-    margin-left: 7%;
-    width: 11%;
-    height: 4%;
-    border-radius: 10px;
-    cursor: pointer
-}
-.sp2{
-    margin-top: -10%;
-    margin-left: 24%;
-    font-size: medium;
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    font-weight: 600;
-    cursor: pointer
-}
-
-.fa-chevron-down{
-    margin-top: 8%;
-    margin-left: 10%;
-    font-size: x-large;
-    cursor: pointer
-}
-.foot-note{
-    margin-top: 23%;
-    margin-left: 4%;
-    width: 173%;
-    color: #443c3cf7;
-    font-size: x-small;
-    cursor: pointer
+    
 }
 .house-icon{
-    height: 67%;
+    height: 96%;
     width: 7%;
-    margin-left: 10%;
-    margin-top: 0.2%;
+    margin-left: 11%;
+    margin-top: 0%;
     font-size: x-large;
-    float: left;
     border-radius: 16px;
     border: 0px;
     background-color: transparent;
@@ -119,12 +69,11 @@ body{
 }
 
 .icon{
-    height: 67%;
+    height: 96%;
     width: 7%;
     margin-left: 1%;
-    margin-top: 0.2%;
+    margin-top: 0%;
     font-size: x-large;
-    float: left;
     border-radius: 12px;
     border: 0px;
     background-color: transparent;
@@ -134,52 +83,88 @@ body{
     background-color: #edeff0;
 }
 .list-icon{
-    margin-top: -3%;
-    margin-left: 65%;
-    height: 58%;
+    margin-top: .4%;
+    margin-left: 15%;
+    height: 80%;
     width: 3%;
     font-size: x-large;
-    float: left;
     border-radius: 44px;
     border: 0px;
     background-color: #c0c0c063;
     cursor: pointer;
 }
-.messenger-icon{
-    margin-top: -3%;
-    margin-left: 69%;
-    height: 58%;
+.head_icon{
+    margin-top: .4%;
+    margin-left: 1%;
+    height: 80%;
     width: 3%;
     font-size: x-large;
-    float: left;
+    
     border-radius: 44px;
     border: 0px;
     background-color: #c0c0c063;
     cursor: pointer;
 }
-.bell-icon{
-    margin-top: -3%;
-    margin-left: 73%;
-    height: 58%;
-    width: 3%;
+
+.fa-user{
+    margin-top: 0%;
+    margin-left: 9%;
     font-size: x-large;
-    float: left;
-    border-radius: 44px;
-    border: 0px;
-    background-color: #c0c0c063;
     cursor: pointer;
+    float: left;
 }
-.user-acc{
-    margin-top: -3%;
-    margin-left: 77%;
-    height: 58%;
-    width: 3%;
-    font-size: x-large;
-    float: left;
-    border-radius: 44px;
-    border: 0px;
-    background-color: #c0c0c063;
+.s-p{
+    margin-top: 1%;
+    margin-left: 8%;
+    height: 1%;
+    font-size: large;
+    text-decoration: none;
+    color: black;
     cursor: pointer;
+    font-weight: 600;
+    cursor: pointer;
+    float: left;
+    
+}
+.s-p1{
+    margin-top: 1%;
+    margin-left: 10%;
+    height: 1%;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+    cursor: pointer;
+    float: left;
+    
+}
+.simg{
+    margin-top: 0%;
+    margin-left: 8%;
+    width: 11%;
+    height: 100%;
+    border-radius: 21px;
+    cursor: pointer;
+    float: left;
+
+}
+.fa-chevron-down{
+    margin-top: 0%;
+    margin-left: 9%;
+    font-size: x-large;
+    cursor: pointer;
+    float: left;
+}
+footer{
+    margin-top: 18%;
+    margin-left: 4%;
+    width: 173%;
+    color: #443c3cf7;
+    font-size: x-small;
+    cursor: pointer;
+    float: left;
+    display: inline     ;
 }
 .content1{
     margin-top: 0%;
@@ -269,9 +254,11 @@ body{
     float: left;
     cursor: pointer;
 }
-.lvdo-p{
+.lvdo-a{
     margin-top: 3%;
     margin-left: 2%;
+    text-decoration: none;
+    color: black;
     font-size: smaller;
     font-weight: 400;
     width: 12%;
@@ -287,9 +274,11 @@ body{
     float: left;
     cursor: pointer
 }
-.pic-p{
+.pic-a{
     margin-top: 3%;
     margin-left: 2%;
+    text-decoration: none;
+    color: black;
     font-size: smaller;
     font-weight: 400;
     width: 12%;
@@ -304,9 +293,11 @@ body{
     float: left;
     cursor: pointer
 }
-.emoji-p{
+.emoji-a{
     margin-top: 3%;
     margin-left: 2%;
+    text-decoration: none;
+    color: black;
     font-size: smaller;
     font-weight: 400;
     width: 12%;
@@ -452,9 +443,11 @@ body{
     float: left;
     cursor: pointer;
 }
-.like-p{
+.lcs-in{
     margin-top: 3%;
-    margin-left: 3%;
+    margin-left: 0%;
+    background-color: transparent;
+    border: 0px solid;
     font-size: smaller;
     font-weight: 400;
     width: 12%;
@@ -463,23 +456,14 @@ body{
     cursor: pointer;
 }
 .fa-comment{
-    margin-left: 15%;
+    margin-left: 18%;
     margin-top: 2.5%;
     color: #443c3cf7;
     font-size: larger;
     float: left;
     cursor: pointer;
 }
-.cmnt-p{
-    margin-top: 3%;
-    margin-left: 2%;
-    font-size: smaller;
-    font-weight: 400;
-    width: 12%;
-    float: left;
-    color: #443c3cf7;
-    cursor: pointer;
-}
+
 .fa-share{
     margin-left: 20%;
     margin-top: 2%;
@@ -488,16 +472,7 @@ body{
     float: left;
     cursor: pointer;
 }
-.share-p{
-    margin-top: 3%;
-    margin-left: 2%;
-    font-size: smaller;
-    font-weight: 400;
-    width: 12%;
-    float: left;
-    color: #443c3cf7;
-    cursor: pointer;
-}
+
 .content2-h1{
     margin-top: 0%;
     margin-left: 7%;
