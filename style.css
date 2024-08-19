@@ -7,7 +7,7 @@ body{
     height: 720px;
     background-color: #edeff0;;
 }
-.side{
+aside{
     padding-top: 2%;
     margin-top: 0%;
     width: 19%;
@@ -15,7 +15,7 @@ body{
     background-color: #edeff0;
     float: left;
     display: grid;
-    grid-template-rows: auto;
+    grid-auto-columns :auto;
     grid-gap: 21px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 }
 header{
