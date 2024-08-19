@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook</title>
-    <link rel="icon" href="images/facebook-logo.png">
+    <title>Facebook</title>  <!-- Title of webpage -->
+    <link rel="icon" href="images/facebook-logo.png"> <!--Favicon--> 
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
  <div class="base">
+    <!-- Head of the website  -->
     <header>
          <img class="logo" src="images/facebook-logo.png" alt="">
          <input class="sf" type="text" placeholder= "Search Facebook">
@@ -22,8 +23,9 @@
          <button class="head_icon"> <i class="fa-brands fa-facebook-messenger"></i></button>
          <button class="head_icon"><i class="fa-solid fa-bell"></i></button>
         <button class="head_icon"><i class="fa-solid fa-user-large"></i></button> 
-    </header>    
-    <div class="side">
+    </header>  
+    <!-- Here start side bar   -->
+    <aside>
         <div>
         <i class="fa-solid fa-user"></i>
         <a class="s-p1" href="">Account</a>
@@ -68,12 +70,13 @@
             <i class="fa-solid fa-chevron-down"></i>
             <a class="s-p1" href="">See more</a>
         </div>
+        <!-- Footer of webpage is located at side of webpage -->
         <footer>
             Privacy  · Terms  · Advertising  · Ad Choices · Cookies·<br>More· Meta © 2024
         </footer>
-    </div>
-    
-    <div class="content">
+    </aside>
+    <!-- Main part of webpage -->
+    <main class="content">
         <div class="content1">
             <div class="story">
                 <button class="pbtn1">&plus;</button>
@@ -99,6 +102,7 @@
                 <button class="close-btn">&times;</button>
                 <p class="post-date">July 1 st 8:30 AM</p>
                 <p class="desc">Best action movie on netflix 2024</p>
+                <!-- Added a video as facebook post  -->
                 <video class="clip" controls loop autoplay muted >
                     <source src="images/venomclip.MP4" type="video/MP4">
 
@@ -133,7 +137,7 @@
 
         </div>
 
-    </div>
+    </main>
 </div>    
 </body>
 </html>
